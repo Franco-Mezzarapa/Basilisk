@@ -1,0 +1,28 @@
+# --- MongoDB Data Directories ---
+# Ignore local MongoDB database files
+data/db/
+data/log/
+dump/
+
+# If MongoDB binaries or installations are placed here, ignore them
+mongodb/
+mongo_install/
+mongo_db_install/
+# --- Enet Library ---
+# If you have an external 'enet' library directory or build output
+enet/
+libenet/
+*.o
+*.so
+*.a
+*.dll
+*.dylib
+
+# --- Database Configurations in Server ---
+# Ignore database location or config files inside the server directory
+server/database
+
+# Environment files containing sensitive info
+.env
+.env.local
+.env.*.local
